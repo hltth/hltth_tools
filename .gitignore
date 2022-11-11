@@ -1,3 +1,5 @@
 .venv
 yolov*
 .DS_Store
+reference_code*
+*pycache*
