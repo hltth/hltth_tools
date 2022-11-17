@@ -1,10 +1,14 @@
 import streamlit as st
+from streamlit.logger import get_logger
+
 from db import GiamSatConn
+
+LOGGER = get_logger(__name__)
 
 def main():
     st.set_page_config(
         page_title="This is the dashboard of medial review system",
-        page_icon="",
+        page_icon="👋",
     )
 
     st.write("# Welcome to Dashboard System 👋")
