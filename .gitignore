@@ -3,3 +3,4 @@ yolov*
 .DS_Store
 reference_code*
 *pycache*
+crawler/__pychache__*

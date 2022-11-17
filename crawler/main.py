@@ -3,7 +3,8 @@ from lxml.html import fromstring
 import lxml
 import requests
 from cchn_crawler import CchnCrawler
+from byt_crawler import BytCrawler
 
-crawler = CchnCrawler()
+crawler = BytCrawler(website='cong_khai_gia')
 
-crawler.crawl_hoa_binh()
+crawler.crawl()
