@@ -4,3 +4,4 @@ yolov*
 reference_code*
 *pycache*
 crawler/__pychache__*
+.vscode*
