@@ -5,6 +5,6 @@ import requests
 from cchn_crawler import CchnCrawler
 from byt_crawler import BytCrawler
 
-crawler = BytCrawler(website='cong_khai_gia')
+crawler = BytCrawler(website='cong_bo_thuoc')
 
 crawler.crawl()
