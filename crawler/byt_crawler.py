@@ -107,7 +107,7 @@ class BytCrawler:
         
         # loop all pages
 
-        for x in range(1, n):
+        for x in range(0, n):
             skipCount = x * maxResultCount
             json_request = {"KichHoat":True,"SoDangKyThuoc":{},"skipCount":skipCount,"maxResultCount":maxResultCount,"sorting":''}
             r = requests.post(url, json=json_request)
